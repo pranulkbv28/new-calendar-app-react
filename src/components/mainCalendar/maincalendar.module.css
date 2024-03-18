@@ -1,0 +1,12 @@
+.body {
+  /* margin-top: 40px; */
+  width: 90%;
+  background-color: rgba(0, 0, 0, 0.741) !important;
+  padding: 5px;
+  border-radius: 12px;
+  color: white;
+}
+/* .main {
+  width: 75%;
+  margin: 0 auto;
+} */

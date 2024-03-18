@@ -1,0 +1,34 @@
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.inputContainer{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid white;
+}
+.inputContainer>input{
+    width: 90%;
+    padding: 8px;
+    border-radius: 8px 0 0 8px;
+    border: none;
+    outline: none;
+}
+.inputContainer>button{
+    border: none;
+    outline: none;
+    padding: 2px;
+    border-radius: 0 8px 8px 0;
+}
+.iconConatiner{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-right: 1px solid white;
+}
+.iconConatiner>svg{
+    color: white;
+}

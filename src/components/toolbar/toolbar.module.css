@@ -1,0 +1,61 @@
+.toolbarContainer {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 28px;
+}
+.todayButton {
+  width: 25%;
+  background-color: #3fc0857d;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  padding: 4px 8px;
+  color: black;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-weight: bold;
+}
+.todayButton:hover {
+  background-color: green;
+}
+.buttonContainer {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.buttonContainer > button {
+  width: 40%;
+  font-size: 10px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.dateContainer {
+  width: 50%;
+  text-align: center;
+  font-weight: bold;
+}
+.iconBtn {
+  border: none;
+  padding: 0;
+  width: 20px;
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #3fc0857d;
+  transition: all 0.2s ease-in-out;
+}
+.iconBtn:hover {
+  background-color: green;
+}
+.iconBtn > svg {
+  height: 20px;
+  width: 20px;
+}

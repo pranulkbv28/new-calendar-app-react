@@ -1,0 +1,42 @@
+.daysConatiner {
+  padding: 4px;
+  font-weight: bold;
+}
+.calendarBody {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 5px;
+}
+.calendarBody span {
+  text-align: center;
+}
+.days {
+  z-index: 1;
+  cursor: pointer;
+  position: relative;
+  margin-top: 16px;
+  font-size: small;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.days::before {
+  position: absolute;
+  content: "";
+  left: 50%;
+  top: 50%;
+  height: 20px;
+  width: 20px;
+  z-index: -1;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+.days.active::before {
+  background: #3fc0857d;
+}
+.days:not(.active):hover::before {
+  background: #f2f2f2;
+}
+.inactive {
+  color: #aaa;
+}

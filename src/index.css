@@ -1,0 +1,7 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+.eventCollectorShowing{
+  background-color: rgba(0, 0, 0, 0.044) !important;
+}

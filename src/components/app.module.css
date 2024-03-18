@@ -1,0 +1,12 @@
+.iconContainer{
+    color: white;
+    margin-top: 24px;
+}
+.iconContainer>div{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    padding-left: 24px;
+    margin-bottom: 18px;
+}

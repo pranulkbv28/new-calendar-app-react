@@ -1,0 +1,97 @@
+.body {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid white;
+  background-color: rgb(0, 0, 0);
+}
+.main {
+  width: 100%;
+}
+.toolbarContainer {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 8px 0;
+}
+.todayButton {
+  width: 10%;
+  background-color: rgba(0, 0, 255, 0.54);
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  padding: 4px 8px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.todayButton:hover {
+  background-color: rgba(135, 207, 235, 0.482);
+}
+.buttonContainer {
+  width: auto;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.iconBtn {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: skyblue;
+  transition: all 0.2s ease-in-out;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+}
+.iconBtn:hover {
+  background-color: rgba(135, 207, 235, 0.482);
+}
+.iconBtn > svg {
+  width: 36px;
+  height: 36px;
+}
+.dateContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 50%;
+  justify-content: center;
+}
+.calendarTypes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* gap: 5px; */
+  width: 35%;
+}
+.calendarType {
+  border: 1px solid white;
+  padding: 4px 8px;
+  width: 30%;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.calendarType:hover {
+  background-color: skyblue;
+}
+.calendarType:first-child {
+  border-right: none;
+  border-radius: 24px 0 0 24px;
+}
+.calendarType:last-child {
+  border-radius: 0 24px 24px 0;
+  border-left: none;
+}
+.active {
+  background-color: skyblue;
+  /* color: white; */
+}
